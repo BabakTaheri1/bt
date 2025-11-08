@@ -391,16 +391,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-our-paper-on-ac-informed-dc-optimal-transmission-switching-has-been-accepted-to-the-ieee-transactions-on-power-systems",
+          title: 'Our paper on AC-Informed DC Optimal Transmission Switching has been accepted to the...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-our-paper-on-improving-the-lindistflow-approximation-in-distribution-systems-has-been-accepted-to-the-ieee-transactions-on-smart-grid",
+          title: 'Our paper on improving the LinDistFlow approximation in distribution systems has been accepted...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
