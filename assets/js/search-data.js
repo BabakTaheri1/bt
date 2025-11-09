@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/code/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of your cool projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -65,51 +72,36 @@ ninja.data = [{
           section: "News",},{id: "news-paper-accepted-to-the-ieee-transactions-on-smart-grid",
           title: 'Paper accepted to the IEEE Transactions on Smart Grid.',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-reactive-power-truck",
+          title: 'Reactive Power - Truck',
+          description: "This reactive power metaphor uses a truck-and-hill analogy to explain system efficiency. Active power is the useful work, shown as packages being delivered...",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_reactive_truck/";
+            },},{id: "projects-reactive-power-particle-flow",
+          title: 'Reactive Power - Particle Flow',
+          description: "This reactive power metaphor uses flowing particles to visualize electrical concepts. Useful active power is shown as blue particles moving directly to the load...",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/2_reactive_particle/";
+            },},{id: "projects-braess-39-s-paradox",
+          title: 'Braess&amp;#39;s Paradox',
+          description: "Braess&#39;s Paradox is the counter-intuitive observation that removing capacity from a network, can paradoxically increase the network&#39;s overall performance.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/3_braess_paradox/";
+            },},{id: "projects-polya-39-s-urn",
+          title: 'Polya&amp;#39;s Urn 🏺',
+          description: "This interactive tool simulates Polya&#39;s Urn, a classic probability model demonstrating the &quot;rich-get-richer&quot; phenomenon...",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/4_polya_urn/";
+            },},{id: "projects-sierpinski-triangle",
+          title: 'Sierpinski Triangle',
+          description: "This visualization demonstrates the Chaos Game, a stochastic process that beautifully generates the deterministic fractal known as the Sierpinski Triangle.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/5_sierpinski/";
+            },},{id: "projects-euler-39-s-identity",
+          title: 'Euler&amp;#39;s Identity',
+          description: "Euler&#39;s Identity, $e^{i\pi} + 1 = 0$, often feels like a cryptic puzzle... This visualization reveals that story, showing how constant &quot;sideways growth&quot;...",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/6_euler_identity/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
