@@ -391,10 +391,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-two-papers-accepted-for-the-23rd-power-systems-computational-conference-pscc-to-appear-in-electric-power-systems-research-we-are-looking-to-present-our-papers-in-paris-this-summer",
-          title: 'Two papers accepted for the 23rd Power Systems Computational Conference (PSCC), to appear...',
-          description: "",
-          section: "News",},{id: "news-paper-accepted-to-the-ieee-transactions-on-power-systems",
+            },},{id: "news-paper-accepted-to-the-ieee-transactions-on-power-systems",
           title: 'Paper accepted to the IEEE Transactions on Power Systems.',
           description: "",
           section: "News",},{id: "news-began-my-summer-internship-at-dominion-energy-in-the-electric-transmission-strategic-initiatives-group",
